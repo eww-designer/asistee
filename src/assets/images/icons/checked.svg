@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" width="14" height="12">
+	<title>checked</title>
+	<defs>
+		<image  width="14" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAAAXNSR0IB2cksfwAAAI1QTFRFAAAApFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFpFeFBRCfWgAAAC90Uk5TAC4rFJj+gy3p2FgBO/K3Biz2vQ/i0wkjArvtHfzjT3L/UTLa8zSuFef49BhCZSp+RH0VAAAAYklEQVR4nGNkQAKMjIwIDjMjMpedEZnLA2R/ZIBxBRgZ/35kgHGFgXKvQIYxiDO+YJAA8p6CzZZgYWR8JM/IeB9iFYMSUOY/0y2ozQwM6iALrsK5DDofBC8zILgMene/QrkAw9EPIG8M4OoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

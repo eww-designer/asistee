@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Asistee - Home</title>
+    <link href="/src/assets/css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="/src/assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-lufgarg font-normal flex flex-col min-h-full">
+    <header class="bg-primary500 py-3.5 reltive z-20 w-full">
+      <div class="max-w-[77.5rem] mx-auto px-5">
+        <div class="flex flex-row justify-between items-center">
+          <a href="#" class="flex items-center">
+            <img
+              src="assets/images/icons/logo.svg"
+              alt="Logo"
+              class="md:h-12.5 h-11 object-cover w-auto"
+            />
+          </a>
+          <div
+            class="menu-overlay fixed bg-[#ffffff00] backdrop-blur-lg inset-0 z-30 transition-transform duration-900 ease-in-out"
+          ></div>
+          <nav
+            class="justify-between lg:relative fixed z-20 lg:top-auto top-0 lg:p-0 start-0 lg:bg-transparent bg-primary500 lg:w-auto w-2xs transform ltr:lg:translate-x-[unset] rtl:lg:translate-x-[unset] ltr:-translate-x-full rtl:translate-x-full transition-transform duration-700 ease-in-out lg:h-auto h-full lg:items-center items-start flex nav-items"
+          >
+            <button
+              class="lg:hidden block absolute top-6 ltr:right-6 rtl:left-6 close-icon cursor-pointer"
+            >
+              <img
+                src="assets/images/icons/close.svg"
+                class="w-4 h-4 object-contain"
+                alt="close"
+              />
+            </button>
+            <ul
+              class="lg:flex lg:flex-row xl:space-x-10 lg:space-x-6 space-x-5 lg:w-auto w-full p-6 pb-0 lg:pt-0 pt-14"
+            >
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden hover:after:block lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >Home</a
+                >
+              </li>
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="active text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >Services</a
+                >
+              </li>
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >About Us</a
+                >
+              </li>
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >Become Provider</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="flex flex-row items-center xl:gap-6 md:gap-4 gap-3">
+            <a
+              href="signin.html"
+              class="text-primary font-lufgabd md:text-lg text-sm inline-block w-fit"
+              >Sign In</a
+            >
+            <a
+              href="signup.html"
+              class="bg-secondary text-white font-lufgabd md:text-base text-sm rounded-xl xl:px-10 md:px-6 px-4 md:py-3 py-2 inline-block w-fit"
+              >Sign Up</a
+            >
+            <button
+              class="nav-button lg:hidden block cursor-pointer w-fit"
+              type="button"
+              class="2xl:hidden xl:hidden lg:hidden inline-flex items-center absolute right-0 l-auto p-0 w-auto h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none"
+            >
+              <img
+                src="assets/images/icons/menu.svg"
+                alt="menu"
+                class="md:w-6 w-5 md:h-6 h-5 object-contain rtl:-scale-x-100"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="flex-auto">
+      
+      <!-- Service Providers Section Start Here -->
+      <section class="service-provider-section xl:pt-[6.25rem] lg:pt-20 md:pt-16 sm:pt-14 xl:pb-40 lg:pb-32 md:pb-16 py-10 ">
+        <div class="max-w-[77.5rem] mx-auto sm:px-5 px-4 h-full w-full justify-center">
+          <div class="md:max-w-[41.063rem] max-w-[33.125rem] mx-auto text-center">
+            <h1 class="xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-lufgabd leading-tight w-full xl:mb-14 lg:mb-12 md:mb-10 sm:mb-8 mb-6 text-secondary">
+              Book your
+              <span class="text-primary inline">Trusted Local</span> service providers
+            </h1>
+            <div class="border-1 border-secondary overflow-hidden flex items-center rounded-[18px] w-full max-w-[37.5rem] xl:min-h-[3.25rem] lg:min-h-12 md:min-h-10 min-h-9 pr-1.5 mx-auto xl:mb-14 lg:mb-12 md:mb-10 sm:mb-8 mb-6">
+              <input class="font-lufgamd xl:py-4 lg:py-3.5 md:py-3 sm:py-2.5 py-2 xl:px-6 lg:px-5.5 md:px-5 sm:px-4.5 px-4 w-full text-sm font-medium placeholder:text-[#19121766] text-secondary outline-0 placeholder:font-medium h-full" placeholder="Let’s find the service you want" />
+              <a href="javscript:void(0);" class="bg-primary text-white text-sm font-medium md:p-2 p-1.5 lg:w-10 lg:h-10 lg:min-w-10 lg:min-h-10 md:w-9 md:h-9 md:min-w-9 md:min-h-9 sm:w-8 sm:h-8 sm:min-w-8 sm:min-h-8 w-7 h-7 min-w-7 min-h-7 rounded-xl flex items-center justify-center">
+                <img src="assets/images/icons/search.svg" alt="Search" class="object-contain w-full h-full "/ >
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-center w-full">
+            <!-- Tab navigation -->
+            <ul class="flex lg:gap-3 md:gap-2.5 sm:gap-2 gap-2 w-full justify-center flex-wrap" id="service-tabs">
+              <li class="inline-flex">
+                <a
+                  class="bg-primary rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-white font-lufgabd font-bold flex justify-center items-center active"
+                  href="javascript:void(0);"
+                  data-tab="all"
+                  onclick="showTab('all')"
+                  title="All"
+                >
+                  All
+                </a>
+              </li>
+              <li class="inline-flex">
+                <a
+                  class="bg-[#F6F6F6] rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-secondary font-lufgabd font-medium lg:gap-3 md:gap-2.5 sm:gap-2 gap-1.5 flex justify-center items-center hover:bg-primary hover:text-white transition tab-active:ring tab-active:ring-primary-light"
+                  href="javascript:void(0);"
+                  data-tab="cleaning"
+                  onclick="showTab('cleaning')"
+                  title="Cleaning"
+                >
+                  <img src="assets/images/icons/cleaning.svg" alt="Cleaning" class="object-contain lg:w-5 lg:h-5 w-4 h-4 group-hover:invert transition-all" />
+                  Cleaning
+                </a>
+              </li>
+              <li class="inline-flex">
+                <a
+                  class="bg-[#F6F6F6] rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-secondary font-lufgabd font-medium lg:gap-3 md:gap-2.5 sm:gap-2 gap-1.5 flex justify-center items-center hover:bg-primary hover:text-white transition"
+                  href="javascript:void(0);"
+                  data-tab="ac-repair"
+                  onclick="showTab('ac-repair')"
+                  title="Ac Repair"
+                >
+                  <img src="assets/images/icons/ac-repair.svg" alt="Ac Repair" class="object-contain lg:w-5 lg:h-5 w-4 h-4 group-hover:invert transition-all" />
+                  Ac Repair
+                </a>
+              </li>
+              <li class="inline-flex">
+                <a
+                  class="bg-[#F6F6F6] rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-secondary font-lufgabd font-medium lg:gap-3 md:gap-2.5 sm:gap-2 gap-1.5 flex justify-center items-center hover:bg-primary hover:text-white transition"
+                  href="javascript:void(0);"
+                  data-tab="appliance"
+                  onclick="showTab('appliance')"
+                  title="Appliance"
+                >
+                  <img src="assets/images/icons/appliance.svg" alt="Appliance" class="object-contain lg:w-5 lg:h-5 w-4 h-4 group-hover:invert transition-all" />
+                  Appliance
+                </a>
+              </li>
+              <li class="inline-flex">
+                <a
+                  class="bg-[#F6F6F6] rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-secondary font-lufgabd font-medium lg:gap-3 md:gap-2.5 sm:gap-2 gap-1.5 flex justify-center items-center hover:bg-primary hover:text-white transition"
+                  href="javascript:void(0);"
+                  data-tab="plumbing"
+                  onclick="showTab('plumbing')"
+                  title="Plumbing"
+                >
+                  <img src="assets/images/icons/plumbing.svg" alt="Plumbing" class="object-contain lg:w-5 lg:h-5 w-4 h-4 group-hover:invert transition-all" />
+                  Plumbing
+                </a>
+              </li>
+              <li class="inline-flex">
+                <a
+                  class="bg-[#F6F6F6] rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-secondary font-lufgabd font-medium lg:gap-3 md:gap-2.5 sm:gap-2 gap-1.5 flex justify-center items-center hover:bg-primary hover:text-white transition"
+                  href="javascript:void(0);"
+                  data-tab="painting"
+                  onclick="showTab('painting')"
+                  title="Painting"
+                >
+                  <img src="assets/images/icons/painting.svg" alt="Painting" class="object-contain lg:w-5 lg:h-5 w-4 h-4 group-hover:invert transition-all" />
+                  Painting
+                </a>
+              </li>
+              <li class="inline-flex">
+                <a
+                  class="bg-[#F6F6F6] rounded-[1.688rem] group lg:py-[0.813rem] md:py-3 sm:py-2.5 py-2 lg:px-6.5 md:px-5.5 sm:px-5 px-4.5 text-sm text-secondary font-lufgabd font-medium lg:gap-3 md:gap-2.5 sm:gap-2 gap-1.5 flex justify-center items-center hover:bg-primary hover:text-white transition"
+                  href="javascript:void(0);"
+                  data-tab="electrician"
+                  onclick="showTab('electrician')"
+                  title="Electrician"
+                >
+                  <img src="assets/images/icons/electrician.svg" alt="Electrician" class="object-contain lg:w-5 lg:h-5 w-4 h-4 group-hover:invert transition-all" />
+                  Electrician
+                </a>
+              </li>
+            </ul>
+            <div class="md:max-w-[46.25rem] sm:max-w-4/5 max-w-full xl:my-14 lg:my-12 md:my-10 sm:my-8 my-7 w-full">
+              <!-- Tab content containers -->
+              <div id="all-tab" class="flex xl:gap-10 lg:gap-8 sm:gap-5 gap-4 w-full justify-center flex-wrap">
+                <div class="flex flex-col lg:gap-4.5 md:gap-3 gap-2 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/home-cleaning.jpg" alt="Home Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Home Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/carpet-cleaning.jpg " alt="Carpet Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Carpet Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/bathroom-cleaning.jpg" alt="Bathroom Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Bathroom Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/ac-cleaning.jpg " alt="AC Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">AC Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/home-cleaning-one.jpg " alt="Home Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Home Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/carpet-cleaning-one.jpg  " alt="Carpet Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Carpet Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/bathroom-cleaning-one.jpg " alt="Bathroom Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Bathroom Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/ac-cleaning.jpg " alt="AC Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">AC Cleaning</span>
+                </div>
+              </div>
+
+              <div id="cleaning-tab" class="hidden flex gap-10 w-full justify-center flex-wrap max-w-[46.25rem]">
+                <!-- Cleaning-specific content -->
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/home-cleaning.jpg" alt="Home Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Home Cleaning</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/carpet-cleaning.jpg " alt="Carpet Cleaning" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Carpet Cleaning</span>
+                </div>
+                <!-- Other cleaning service items -->
+              </div>
+
+              <div id="ac-repair-tab" class="hidden flex gap-10 w-full justify-center flex-wrap max-w-[46.25rem]">
+                <!-- Ac Repair-specific content -->
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/ac-cleaning.jpg" alt="Ac Repair" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Ac Repair</span>
+                </div>
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/home-cleaning-one.jpg  " alt="Ac Repair" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Ac Repair</span>
+                </div>
+
+                <!-- Other Ac Repair service items -->
+              </div>
+
+              <div id="appliance-tab" class="hidden flex gap-10 w-full justify-center flex-wrap max-w-[46.25rem]">
+                <!-- Appliance-specific content -->
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/bathroom-cleaning-one.jpg " alt="Appliance" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Appliance</span>
+                </div>
+                <!-- Other Appliance service items -->
+              </div>
+
+              <div id="plumbing-tab" class="hidden flex gap-10 w-full justify-center flex-wrap max-w-[46.25rem]">
+                <!-- Plumbing-specific content -->
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/carpet-cleaning-one.jpg " alt="Plumbing" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Plumbing</span>
+                </div>
+                <!-- Other Plumbing service items -->
+              </div>
+
+              <div id="painting-tab" class="hidden flex gap-10 w-full justify-center flex-wrap max-w-[46.25rem]">
+                <!-- Painting-specific content -->
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/bathroom-cleaning-one.jpg" alt="Painting" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Painting</span>
+                </div>
+                <!-- Other Painting service items -->
+              </div>
+
+              <div id="electrician-tab" class="hidden flex gap-10 w-full justify-center flex-wrap max-w-[46.25rem]">
+                <!-- Electrician-specific content -->
+                <div class="flex flex-col md:gap-4.5 gap-3 items-center lg:w-[calc(25%-30px)] sm:w-[calc(33.33%-16px)] w-[calc(50%-8px)]">
+                  <img src="assets/images/carpet-cleaning-one.jpg " alt="Electrician" class="object-cover rounded-4xl w-full md:h-40 sm:h-36 h-32" />
+                  <span class="text-sm font-lufgabd font-semibold text-center text-primary">Electrician</span>
+                </div>
+                <!-- Other Electrician service items -->
+              </div>
+            </div>
+            <div class="w-full text-center">
+              <button
+                type="submit"
+                class="text-white sm:text-base text-sm leading-5.5 font-lufgabd rounded-xl px-4.5 sm:px-5 md:px-10 lg:px-12 xl:px-14 py-2 md:py-2.5 lg:py-3 mx-auto bg-secondary border border-secondary hover:border-gray-light hover:bg-gray-light transition-colors duration-700 ease-in-out cursor-pointer inline-flex"
+              >
+                Continue Browsing
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service Providers Section Ends Here -->
+
+      <!-- Real Life Numbers Section Start Here -->
+      <section class="reallifeno-section overflow-hidden bg-[#F6F6F6] md:py-0 py-5 ">
+        <div class="max-w-[77.5rem] mx-auto sm:px-5 px-4 h-full w-full">
+          <div class="flex relative before:content before:w-[1000%] before:h-full before:-translate-x-full before:bg-[#F2E6ED] before:md:inline-block before:absolute flex-wrap right-0 before:hidden md:gap-0 gap-4">
+            <div class="bg-[#F2E6ED] xl:py-[2.125rem] lg:py-8 md:py-7 py-6 pr-3 pl-3 md:pl-0 md:w-1/4 w-full">
+              <div class="flex md:items-start items-center justify-center flex-col h-full text-center">
+                <h4 class="lg:text-2xl md:text-xl text-lg font-lufgabd font-bold text-secondary mb-1.5">Real Life Numbers</h4>
+                <p class="text-sm font-lufgamd text-[#19121766]">A Truthful Number for authenticity</p>
+              </div>
+            </div>
+            <div class="xl:py-[2.125rem] lg:py-8 md:py-7 md:px-4 md:w-3/4 w-full">
+              <div class="flex md:gap-1 gap-1.5 h-full items-center flex-wrap justify-between">
+                <div class="sm:w-[calc(25%-5px)] w-[calc(50%-3px)] p-[0.4375rem] relative text-center before:content before:w-[1px] before:h-full before:-right-1 before:bg-[#00000024] before:inline-block before:absolute before:top-0">
+                  <h4 class="xl:text-[2rem] lg:text-3xl md:text-2xl text-xl leading-none font-lufgabd font-bold text-primary mb-1.5 ">200K +</h4>
+                  <p class="text-sm font-lufgamd text-[#19121766]">Happy Customers</p>
+                </div>
+                <div class="sm:w-[calc(25%-5px)] w-[calc(50%-3px)] p-[0.4375rem] relative text-center before:content before:w-[1px] before:h-full before:-right-1 before:bg-[#00000024] before:sm:inline-block before:absolute before:top-0 before:hidden">
+                  <h4 class="xl:text-[2rem] lg:text-3xl md:text-2xl text-xl leading-none font-lufgabd font-bold text-primary mb-1.5 ">100+</h4>
+                  <p class="text-sm font-lufgamd text-[#19121766]">Trusted professionals</p>
+                </div>
+                <div class="sm:w-[calc(25%-5px)] w-[calc(50%-3px)] p-[0.4375rem] relative text-center before:content before:w-[1px] before:h-full before:-right-1 before:bg-[#00000024] before:inline-block before:absolute before:top-0">
+                  <h4 class="xl:text-[2rem] lg:text-3xl md:text-2xl text-xl leading-none font-lufgabd font-bold text-primary mb-1.5 ">30+</h4>
+                  <p class="text-sm font-lufgamd text-[#19121766]">Services to Have</p>
+                </div>
+                <div class="sm:w-[calc(25%-5px)] w-[calc(50%-3px)] p-[0.4375rem] relative text-center">
+                  <h4 class="xl:text-[2rem] lg:text-3xl md:text-2xl text-xl leading-none font-lufgabd font-bold text-primary mb-1.5 ">15K+</h4>
+                  <p class="text-sm font-lufgamd text-[#19121766]">Monthly Bookings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Real Life Numbers Section Ends Here -->
+
+      <!-- Booking Section Start Here -->
+      <section class="booking-section overflow-hidden xl:py-40 lg:py-32 md:py-20 sm:py-16 py-14">
+        <div class="max-w-[77.5rem] mx-auto px-4 h-full w-full">
+          <div class="flex justify-between xl:mb-[3.75rem] lg:mb-12 md:mb-10 sm:mb-8 mb-6 gap-2 flex-wrap md:flex-row flex-col ">
+            <h4 class="xl:text-[2rem] lg:text-3xl md:text-2xl text-xl leading-none font-lufgabd font-bold mb-0 md:text-start text-center">
+              How <span class="text-primary inline">Booking</span> Flow Works
+            </h4>
+            <div class="md:max-w-[25.8125rem] w-full md:text-end max-w-full text-center">
+                <p class="lg:text-base text-sm leading-5.5 font-lufgamd text-gray-dark md:text-end text-center">Book Trusted Local Professionals – Post Requests, Compare, and Hire On-Demand</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-between md:gap-[1.875rem] gap-7 md:max-w-full max-w-[90%] mx-auto w-full">
+            <div class="md:w-[calc(33.33%-20px)] w-full bg-gray-600 xl:p-[3.125rem] lg:p-10 md:p-7 sm:p-9 p-8 px-5 pt-7 rounded-[3.125rem] relative before:content before:md:top-3/6 before:lg:w-[3.6rem] before:lg:h-[3.6rem] before:md:w-14 before:md:h-14 before:sm:w-12 before:sm:h-12 before:w-10 before:h-10 before:md:left-full before:top-full before:left-2/4 before:-translate-x-2/4 before:md:-translate-x-0 before:bg-[#F2E6ED] before:inline-block before:absolute before:md:-translate-y-3/5 before:lg:outline-[11px] before:outline-8 before:outline-white before:rounded-full before:z-[1] before:lg:-ml-3.5 before:md:-ml-3 ml-0 before:bg-[url(../images/icons/arrow-right.svg)] before:bg-center before:lg:bg-size-[1.5625rem] before:bg-size-[1.5100rem] before:bg-no-repeat before:md:mt-0 before:-mt-1.5 before:md:rotate-0 before:rotate-90">
+                <div class="md:text-start text-center flex justify-between items-center xl:mb-11 lg:mb-9 md:mb-5 sm:mb-4 mb-2 gap-2 md:flex-row flex-col-reverse">
+                    <h4 class="xl:text-[1.75rem] lg:text-2xl md:text-xl text-xl leading-snug font-lufgamd font-medium text-secondary">Choose <span class="md:block inline">Service Type</span> </h4>
+                    <span class="text-[#AA849A] xl:text-[6.25rem] lg:text-8xl md:text-6xl sm:text-5xl text-4xl opacity-[10%] lg:leading-[5rem] font-lufgabd font-bold">1</span>
+                </div>
+                <p class="lg:text-base text-sm leading-5.5 font-lufgamd text-gray-dark md:text-start text-center">Browse and select the service you need from our list of trusted providers.</p>
+            </div>
+             <div class="md:w-[calc(33.33%-20px)] w-full bg-gray-600 xl:p-[3.125rem] lg:p-10 md:p-7 sm:p-9 p-8 px-5 rounded-[3.125rem] relative before:content before:md:top-3/6 before:lg:w-[3.6rem] before:lg:h-[3.6rem] before:md:w-14 before:md:h-14 before:sm:w-12 before:sm:h-12 before:w-10 before:h-10 before:md:left-full before:top-full before:left-2/4 before:-translate-x-2/4 before:md:-translate-x-0 before:bg-[#F2E6ED] before:inline-block before:absolute before:md:-translate-y-3/5 before:lg:outline-[11px] before:outline-8 before:outline-white before:rounded-full before:z-[1] before:lg:-ml-3.5 before:md:-ml-3 ml-0  before:bg-[url(../images/icons/arrow-right.svg)] before:bg-center before:lg:bg-size-[1.5625rem] before:bg-size-[1.5100rem] before:bg-no-repeat before:md:mt-0 before:-mt-1.5 before:md:rotate-0 before:rotate-90">
+                <div class="md:text-start text-center flex justify-between items-center xl:mb-11 lg:mb-9 md:mb-5 sm:mb-4 mb-2 gap-2 md:flex-row flex-col-reverse">
+                    <h4 class="xl:text-[1.75rem] lg:text-2xl md:text-xl text-xl leading-snug font-lufgamd font-medium text-secondary ">Request <span class="md:block inline">Quote </span></h4>
+                    <span class="text-[#AA849A] xl:text-[6.25rem] lg:text-8xl md:text-6xl sm:text-5xl text-4xl opacity-[10%] lg:leading-[5rem] font-lufgabd font-bold">2</span>
+                </div>
+                <p class="lg:text-base text-sm leading-5.5 font-lufgamd text-gray-dark md:text-start text-center">Tell us your estimate budget. We’ll send your request to multiple service providers.</p>
+            </div>
+             <div class="md:w-[calc(33.33%-20px)] w-full bg-gray-600 xl:p-[3.125rem] lg:p-10 md:p-7 p-8 px-5 rounded-[3.125rem] relative ">
+                <div class="md:text-start text-center flex justify-between items-center xl:mb-11 lg:mb-9 md:mb-5 sm:mb-4 mb-3 gap-2 md:flex-row flex-col-reverse">
+                    <h4 class="xl:text-[1.75rem] lg:text-2xl md:text-xl text-xl leading-snug font-lufgamd font-medium text-secondary ">Accept 
+                      <span class="md:block inline">Offers</span></h4>
+                    <span class="text-[#AA849A] xl:text-[6.25rem] lg:text-8xl md:text-6xl sm:text-5xl text-4xl opacity-[10%] lg:leading-[5rem] font-lufgabd font-bold">3</span>
+                </div>
+                <p class="lg:text-base text-sm leading-5.5 font-lufgamd text-gray-dark md:text-start text-center">Compare quotes, pick the one you like and confirm the booking.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Booking Section Ends Here -->
+
+      <!-- Testimonials Section Start Here -->
+       <section class="testimonial-section overflow-hidden">
+        <div class="max-w-[77.5rem] mx-auto px-4 w-full">
+            <div class="flex xl:mb-[3.75rem] lg:mb-12 md:mb-10 sm:mb-8 mb-6 gap-2 flex-wrap justify-center items-center">
+              <h4 class="xl:text-[2rem] lg:text-3xl md:text-2xl text-xl leading-none font-lufgabd font-bold mb-0 text-center">
+                <span class="text-primary inline">Happy </span> Customers, <span class="text-primary inline">Satisfied</span> Feedbacks 
+              </h4>
+            </div>
+            <div class="gap-8 grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+              <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                  <img src="assets/images/avatar-images/guillermo-rauch.jpg" alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                  <div class="flex flex-col gap-1 ">
+                    <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Guillermo Rauch </h4>
+                    <div>
+                      <ul class="flex gap-0.5 items-center">
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+              </div>
+               <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                  <img src="assets/images/avatar-images/talha-altinel.jpg " alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                  <div class="flex flex-col gap-1 ">
+                    <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Talha Altinel</h4>
+                    <div>
+                      <ul class="flex gap-0.5 items-center">
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                        <li>
+                          <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.</p>
+              </div>
+              <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                  <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                    <img src="assets/images/avatar-images/thomas-paul-mann.jpg " alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                    <div class="flex flex-col gap-1 ">
+                      <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Thomas Paul Mann</h4>
+                      <div>
+                        <ul class="flex gap-0.5 items-center">
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+              </div>
+               <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                  <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                    <img src="assets/images/avatar-images/sharath.jpg" alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                    <div class="flex flex-col gap-1 ">
+                      <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Sharath</h4>
+                      <div>
+                        <ul class="flex gap-0.5 items-center">
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+              </div>
+              <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                  <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                    <img src="assets/images/avatar-images/matt-galligan.jpg" alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                    <div class="flex flex-col gap-1 ">
+                      <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Matt Galligan</h4>
+                      <div>
+                        <ul class="flex gap-0.5 items-center">
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+              </div>
+              <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                  <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                    <img src="assets/images/avatar-images/farhaj-may.jpg" alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                    <div class="flex flex-col gap-1 ">
+                      <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Farhaj May</h4>
+                      <div>
+                        <ul class="flex gap-0.5 items-center">
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+              </div>
+              <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                  <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                    <img src="assets/images/avatar-images/joel.jpg" alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                    <div class="flex flex-col gap-1 ">
+                      <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">Joel</h4>
+                      <div>
+                        <ul class="flex gap-0.5 items-center">
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+               <div class="inline-block float-left bg-gray-600 lg:p-6 sm:p-5 p-4 rounded-[27.27px] relative border-gray-500 border-[1.36px] ">
+                  <div class="md:text-start text-center flex justify-start items-center xl:mb-3 md:mb-2.5 mb-2 gap-3.5 md:flex-row flex-col">
+                    <img src="assets/images/avatar-images/kp.jpg" alt="star" class="w-12 h-12 object-cover outline-2 outline-secondary rounded-full "/>
+                    <div class="flex flex-col gap-1 ">
+                      <h4 class="md:text-base text-sm leading-snug font-lufgamd font-medium text-secondary mb-0">KP</h4>
+                      <div>
+                        <ul class="flex gap-0.5 items-center">
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                          <li>
+                            <img src="assets/images/icons/star-gray.svg" alt="star" class="w-4 h-4 object-contain"/>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="lg:text-sm text-xs leading-5.5 font-lufgamd text-[#14141499] md:text-start text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+              </div>
+            </div>
+        </div>
+       </section>
+      <!-- Testimonials Section Ends Here -->
+
+         <!-- Happy Customers, Satisfied Feedbacks -->
+
+    </main>
+
+    <footer class="bg-white">
+       <div class="max-w-[77.5rem] mx-auto sm:px-5 px-4 h-full w-full justify-center"></div>
+    </footer>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/intlTelInput.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

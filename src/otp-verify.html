@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Asistee</title>
+    <link href="/src/assets/css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="/src/assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="font-lufgarg font-normal flex flex-col min-h-full">
+    <header class="bg-primary500 py-3.5 reltive z-20 w-full">
+      <div class="max-w-[77.5rem] mx-auto px-5">
+        <div class="flex flex-row justify-between items-center">
+          <a href="#" class="flex items-center">
+            <img
+              src="assets/images/icons/logo.svg"
+              alt="Logo"
+              class="md:h-12.5 h-11 object-cover w-auto"
+            />
+          </a>
+          <div
+            class="menu-overlay fixed bg-[#ffffff00] backdrop-blur-lg inset-0 z-30 transition-transform duration-900 ease-in-out"
+          ></div>
+          <nav
+            class="justify-between lg:relative fixed z-20 lg:top-auto top-0 lg:p-0 start-0 lg:bg-transparent bg-primary500 lg:w-auto w-2xs transform ltr:lg:translate-x-[unset] rtl:lg:translate-x-[unset] ltr:-translate-x-full rtl:translate-x-full transition-transform duration-700 ease-in-out lg:h-auto h-full lg:items-center items-start flex nav-items"
+          >
+            <button
+              class="lg:hidden block absolute top-6 ltr:right-6 rtl:left-6 close-icon cursor-pointer"
+            >
+              <img
+                src="assets/images/icons/close.svg"
+                class="w-4 h-4 object-contain"
+                alt="close"
+              />
+            </button>
+            <ul
+              class="lg:flex lg:flex-row xl:space-x-10 lg:space-x-6 space-x-5 lg:w-auto w-full p-6 pb-0 lg:pt-0 pt-14"
+            >
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden hover:after:block lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >Home</a
+                >
+              </li>
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="active text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >Services</a
+                >
+              </li>
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >About Us</a
+                >
+              </li>
+              <li class="lg:mb-0 mb-3">
+                <a
+                  href="#"
+                  class="text-gray-dark [&.active]:text-secondary font-lufgamd no-underline relative transition-all duration-300 ease-in-out after:hidden lg:[&.active]:after:block after:content-[''] after:-bottom-1.5 after:start-0 after:end-0 after:absolute after:w-[.31rem] after:h-[.31rem] after:rounded-full after:bg-primary after:mx-auto"
+                  >Become Provider</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="flex flex-row items-center xl:gap-6 md:gap-4 gap-3">
+            <a
+              href="signin.html"
+              class="text-primary font-lufgabd md:text-lg text-sm inline-block w-fit"
+              >Sign In</a
+            >
+            <a
+              href="signup.html"
+              class="bg-secondary text-white font-lufgabd md:text-base text-sm rounded-xl xl:px-10 md:px-6 px-4 md:py-3 py-2 inline-block w-fit"
+              >Sign Up</a
+            >
+            <button
+              class="nav-button lg:hidden block cursor-pointer w-fit"
+              type="button"
+              class="2xl:hidden xl:hidden lg:hidden inline-flex items-center absolute right-0 l-auto p-0 w-auto h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none"
+            >
+              <img
+                src="assets/images/icons/menu.svg"
+                alt="menu"
+                class="md:w-6 w-5 md:h-6 h-5 object-contain rtl:-scale-x-100"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="flex-auto">
+      <section class="auth-section">
+        <div
+          class="grid content-between h-auto md:h-[calc(100vh-4.875rem)] landscape:md:h-auto relative"
+        >
+          <div
+            class="flex flex-col flex-grow flex-wrap gap-8 justify-between h-auto md:h-[calc(100vh-4.875rem)] landscape:h-auto landscape:lg:h-[calc(100vh-4.875rem)]"
+          >
+            <div
+              class="max-w-[77.5rem] mx-auto flex flex-col xl:py-12 md:py-10 py-8 px-5 h-full w-full justify-center"
+            >
+              <form
+                class="w-full flex flex-col flex-wrap justify-end lg:max-w-96 md:max-w-86 max-w-full form-main"
+              >
+                <h1
+                  class="lg:text-28 text-2xl font-lufgabd leading-tight text-start w-full pb-1"
+                >
+                  Check your <span class="text-primary">phone</span>
+                </h1>
+                <p
+                  class="text-base font-lufgamd text-gray-dark leading-tight text-start w-full pb-5.5"
+                >
+                  Enter the 6 Digit OTP received to your registered
+                  <span class="text-secondary">Phone Number.</span>
+                </p>
+                <div class="relative group pb-2 w-full">
+                  <input
+                    type="hidden"
+                    id="otp_phone"
+                    name="phone"
+                    class="w-full"
+                  />
+                  <div id="otp" class="inputs flex md:gap-2 gap-1 w-full">
+                    <input
+                      placeholder="_"
+                      class="border text-sm text-center leading-tight border-gray-500 bg-gray-500 focus:bg-transparent focus:border-secondary text-black font-lufgamd placeholder:text-primary px-2 lg:py-6 py-4 xl:w-14 md:w-12 w-10 rounded-xl focus-visible:outline-none"
+                      type="number"
+                      id="first1"
+                      maxlength="1"
+                      inputmode="numeric"
+                      required
+                    />
+                    <input
+                      placeholder="_"
+                      class="border text-sm text-center leading-tight border-gray-500 bg-gray-500 focus:bg-transparent focus:border-secondary text-black font-lufgamd placeholder:text-primary px-2 lg:py-6 py-4 xl:w-14 md:w-12 w-10 rounded-xl focus-visible:outline-none"
+                      type="number"
+                      id="second2"
+                      maxlength="1"
+                      inputmode="numeric"
+                      required
+                    />
+                    <input
+                      placeholder="_"
+                      class="border text-sm text-center leading-tight border-gray-500 bg-gray-500 focus:bg-transparent focus:border-secondary text-black font-lufgamd placeholder:text-primary px-2 lg:py-6 py-4 xl:w-14 md:w-12 w-10 rounded-xl focus-visible:outline-none"
+                      type="number"
+                      id="third3"
+                      maxlength="1"
+                      inputmode="numeric"
+                      required
+                    />
+                    <input
+                      placeholder="_"
+                      class="border text-sm text-center leading-tight border-gray-500 bg-gray-500 focus:bg-transparent focus:border-secondary text-black font-lufgamd placeholder:text-primary px-2 lg:py-6 py-4 xl:w-14 md:w-12 w-10 rounded-xl focus-visible:outline-none"
+                      type="number"
+                      id="fourth4"
+                      maxlength="1"
+                      inputmode="numeric"
+                      required
+                    />
+                    <input
+                      placeholder="_"
+                      class="border text-sm text-center leading-tight border-gray-500 bg-gray-500 focus:bg-transparent focus:border-secondary text-black font-lufgamd placeholder:text-primary px-2 lg:py-6 py-4 xl:w-14 md:w-12 w-10 rounded-xl focus-visible:outline-none"
+                      type="number"
+                      id="fifth5"
+                      maxlength="1"
+                      inputmode="numeric"
+                      required
+                    />
+                    <input
+                      placeholder="_"
+                      class="border text-sm text-center leading-tight border-gray-500 bg-gray-500 focus:bg-transparent focus:border-secondary text-black font-lufgamd placeholder:text-primary px-2 lg:py-6 py-4 xl:w-14 md:w-12 w-10 rounded-xl focus-visible:outline-none"
+                      type="number"
+                      id="sixth6"
+                      maxlength="1"
+                      inputmode="numeric"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full text-white text-base leading-5.5 font-lufgabd rounded-xl px-3.5 py-3 mx-auto bg-secondary border border-secondary hover:border-gray-light hover:bg-gray-700 md:mt-6 mt-4 transition-colors duration-700 ease-in-out cursor-pointer"
+                >
+                  Continue
+                </button>
+
+                <p
+                  class="text-start text-sm font-lufgarg leading-tight text-secondary pt-3"
+                >
+                  Didn’t get the OTP?
+                  <span class="underline text-primary font-lufgasmbd"
+                    >Resend in 00:46</span
+                  >
+                </p>
+              </form>
+            </div>
+          </div>
+          <div
+            class="flex flex-col flex-grow gap-8 justify-between flex-1 bg-primary md:absolute relative end-0 md:w-1/2 w-full h-full md:min-h-[calc(100vh-4.875rem)]"
+          >
+            <div
+              class="flex flex-col xl:px-12 xl:py-12 md:py-10 md:px-10 py-8 px-5 items-center justify-center flex-1 h-full landscape:h-full md:h-[calc(100%-4.875rem)]"
+            >
+              <h2
+                class="text-white xl:text-28 lg:text-2xl md:text-xl text-lg font-lufgamd leading-tight text-center xl:pb-12 md:pb-6 pb-5 mx-auto max-w-[35rem]"
+              >
+                “Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. “
+              </h2>
+              <div
+                class="flex flex-col gap-3.5 lg:w-24 w-20 lg:h-24 h-20 rounded-full mx-auto relative overflow-hidden mb-3"
+              >
+                <img
+                  src="assets/images/avatar.svg"
+                  class="w-full h-full object-cover"
+                  alt="avatar"
+                />
+              </div>
+              <h4
+                class="text-white lg:text-xl text-lg font-lufgamd leading-tight text-center"
+              >
+                Hikari Emi
+              </h4>
+              <p
+                class="text-white text-sm font-lufgali leading-tight text-center pb-2.5"
+              >
+                Lorem Ipsum is simply
+              </p>
+              <div class="flex justify-center gap-2">
+                <img src="assets/images/icons/star.svg" alt="star" />
+                <img src="assets/images/icons/star.svg" alt="star" />
+                <img src="assets/images/icons/star.svg" alt="star" />
+                <img src="assets/images/icons/star.svg" alt="star" />
+                <img src="assets/images/icons/star.svg" alt="star" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/intlTelInput.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Lufga-Regular';
+    src: url('../fonts/Lufga-Regular.eot');
+    src: url('../fonts/Lufga-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Regular.woff2') format('woff2'),
+        url('../fonts/Lufga-Regular.woff') format('woff'),
+        url('../fonts/Lufga-Regular.ttf') format('truetype'),
+        url('../fonts/Lufga-Regular.svg#Lufga-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Bold';
+    src: url('../fonts/Lufga-Bold.eot');
+    src: url('../fonts/Lufga-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Bold.woff2') format('woff2'),
+        url('../fonts/Lufga-Bold.woff') format('woff'),
+        url('../fonts/Lufga-Bold.ttf') format('truetype'),
+        url('../fonts/Lufga-Bold.svg#Lufga-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Medium';
+    src: url('../fonts/Lufga-Medium.eot');
+    src: url('../fonts/Lufga-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Medium.woff2') format('woff2'),
+        url('../fonts/Lufga-Medium.woff') format('woff'),
+        url('../fonts/Lufga-Medium.ttf') format('truetype'),
+        url('../fonts/Lufga-Medium.svg#Lufga-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Black';
+    src: url('../fonts/Lufga-Black.eot');
+    src: url('../fonts/Lufga-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Black.woff2') format('woff2'),
+        url('../fonts/Lufga-Black.woff') format('woff'),
+        url('../fonts/Lufga-Black.ttf') format('truetype'),
+        url('../fonts/Lufga-Black.svg#Lufga-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-SemiBold';
+    src: url('../fonts/Lufga-SemiBold.eot');
+    src: url('../fonts/Lufga-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-SemiBold.woff2') format('woff2'),
+        url('../fonts/Lufga-SemiBold.woff') format('woff'),
+        url('../fonts/Lufga-SemiBold.ttf') format('truetype'),
+        url('../fonts/Lufga-SemiBold.svg#Lufga-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-ExtraLight';
+    src: url('../fonts/Lufga-ExtraLight.eot');
+    src: url('../fonts/Lufga-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Lufga-ExtraLight.woff') format('woff'),
+        url('../fonts/Lufga-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Lufga-ExtraLight.svg#Lufga-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Italic';
+    src: url('../fonts/Lufga-Italic.eot');
+    src: url('../fonts/Lufga-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Italic.woff2') format('woff2'),
+        url('../fonts/Lufga-Italic.woff') format('woff'),
+        url('../fonts/Lufga-Italic.ttf') format('truetype'),
+        url('../fonts/Lufga-Italic.svg#Lufga-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-ExtraBold';
+    src: url('../fonts/Lufga-ExtraBold.eot');
+    src: url('../fonts/Lufga-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Lufga-ExtraBold.woff') format('woff'),
+        url('../fonts/Lufga-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Lufga-ExtraBold.svg#Lufga-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Light';
+    src: url('../fonts/Lufga-Light.eot');
+    src: url('../fonts/Lufga-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Light.woff2') format('woff2'),
+        url('../fonts/Lufga-Light.woff') format('woff'),
+        url('../fonts/Lufga-Light.ttf') format('truetype'),
+        url('../fonts/Lufga-Light.svg#Lufga-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Thin';
+    src: url('../fonts/Lufga-Thin.eot');
+    src: url('../fonts/Lufga-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lufga-Thin.woff2') format('woff2'),
+        url('../fonts/Lufga-Thin.woff') format('woff'),
+        url('../fonts/Lufga-Thin.ttf') format('truetype'),
+        url('../fonts/Lufga-Thin.svg#Lufga-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+	--font-lufgarg: 'Lufga-Regular';
+	--font-lufgamd: 'Lufga-Medium';
+	--font-lufgasmbd: 'Lufga-SemiBold';
+	--font-lufgabd: 'Lufga-Bold';
+	--font-lufgaex: 'Lufga-ExtraBold';
+    --font-lufgali:'Lufga-Light';
+	--color-primary: #A45785;
+    --color-primary500:#F6EFF3;
+	--color-secondary: #191217;
+	--color-gray-dark: #19121799;
+    --color-gray-light: #19121766;
+    --color-gray-700:#191217d1;
+    --color-gray-600:#F6F6F6;
+    --color-gray-500:#EFEFEF;
+	--animate-switch: switch 1s ease-in-out;
+    --text-28: 1.75rem;
+}
+.form-main input:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px #fff inset;}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{@apply appearance-none m-0}
+input[type=number]{-moz-appearance:textfield;}
+
+.iti{@apply w-full;}
+.iti__selected-country-primary{@apply p-0;}
+.iti__arrow{@apply bg-[url(../images/icons/down-arrow.svg)] bg-no-repeat border-0 w-2.5 h-2.5 bg-contain bg-right;}
+.iti__flag{@apply !hidden;}
+.iti__selected-country-primary{@apply !bg-transparent;}
+.iti__selected-dial-code{@apply text-primary font-lufgamd text-sm relative !m-0;}
+.iti__selected-country{@apply bg-gray-600 rounded-lg flex-row-reverse justify-end my-1.5 mx-2 px-2 h-[calc(100%-12px)];}
+
+
+.sidebar-scroll::-webkit-scrollbar-track{@apply bg-transparent;}
+.sidebar-scroll::-webkit-scrollbar{@apply bg-transparent w-1 h-1;}
+.sidebar-scroll::-webkit-scrollbar-thumb{@apply bg-[#58584c3d];}
+.scrollbar-none {-ms-overflow-style: none; scrollbar-width: none;}
+
+
+#service-tabs li a.active img{@apply invert;}
